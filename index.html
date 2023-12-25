@@ -3,32 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
-    <link rel="stylesheet" href="A:\CSSfiles\style1.css">
+    <title>Kartik Thakur - Portfolio</title>
+    <style>
+        body {
+            background-image:url('/images/lakentrees.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            font-family:cursive;
+            text-shadow: 2px 2px 5px rgb(231, 41, 7);
+            margin: 20px;
+            padding: 10px;   
+        }
+        header {background-image:linear-gradient(rgb(0, 183, 255),pink);
+            border: 10px solid;
+            border-radius: 50px ;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: black;
+        }
+
+        .one {background-image: url(/images/sunset.jpg);
+            border: 10px solid;
+            border-radius: 50px ;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .two {background-image: url(/images/moonight.jpg);
+            border: 10px solid;
+            border-radius: 50px ;
+            padding: 10px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        h2 ,h3 {
+            color: blue;
+        }
+        .project {
+            margin-bottom: 50px;
+        }
+
+        footer {background-image: linear-gradient(pink,red);
+            border: 10px solid;
+            border-radius: 50px ;
+            padding: 10px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-align: center;
+            width: 100%;
+        }
+        p , pre {color: rgb(7, 243, 39);
+            font-family: cursive;
+            font-size:larger;
+        }
+   a:hover{color: rgb(105, 224, 7);}
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+
+    <header >
+        <h1 style="color:black;">Kartik Thakur</h1>
+        <p style="color: black; font-size:x-large;">Web Developer</p>
     </header>
 
-    <main>
-        <section id="home">
-            </section>
-        <section id="about">
-            </section>
-        <section id="projects">
-            </section>
-        <section id="contact">
-            </section>
-    </main>
-
+    <section class="one">
+        <h2 style="color:darkmagenta;">About Me</h2>
+        <pre>
+    Welcome to my portfolio!
+    I'm a passionate web developer with expertise in HTML and CSS. I love creating beautiful, user-friendly
+    websites and exploring new technologies.
+        </pre>
+    </section>
+    <section class="two">
+        <h2>Projects</h2>
+        
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>🚀 Developed a responsive portfolio showcasing my skills and projects.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>💡 Collaborated on a team project to create a dynamic landing page using HTML and CSS.</p>
+        </div>
+    </section>
     <footer>
-        </footer>
-    <script src="A:\JSfiles\script1.js"></script>
+        <p>Contact me at: <a href="mailto:kartikthakurmi@gmail.com" style="text-decoration:none">kartikthakurmi@gmail.com</a> | Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/kartik-thakur-8274a2251" target="_blank" style="text-decoration:none">linkedin.com/in/kartik-thakur-8274a2251</a></p>
+         <p><a href="/Resume_CS - Google Docs.pdf" target="_blank" style="text-decoration:none"> Resume</a></p>
+    </footer>
 </body>
 </html>
