@@ -14,14 +14,15 @@ background-position: center;
         }
 
 		.wavy { 
-			position: relative; 
+			position: relative;
+			font-size:25px;
 		} 
 
 		.wavy span { 
             color: lightseagreen;
 			position: relative; 
 			display: inline-block; 
-			font-size: 2em; 
+			font-size: 25px; 
 			text-transform: uppercase; 
 			animation: animate 2s ease-in-out infinite; 
 			animation-delay: calc(0.1s * var(--i)); 
@@ -69,8 +70,8 @@ footer
 <body>
 	<nav>
         <div class="topnav">
-            <p><button onclick="window.location.href = 'bingacitrusfarms.html';"><img src="orange_food_fruit_icon.png" width="35px" height="35px" alt="orange"></button>
-            <h3 id="#top" class="wavy">
+            <span><button onclick="window.location.href = 'bingacitrusfarms.html';"><img src="orange_food_fruit_icon.png" width="35px" height="35px" alt="orange"></button>
+            <span class="wavy">
             <span style="--i:1">Binga</span>
             <span style="--i:2"> </span> 
             <span style="--i:3">C</span> 
@@ -88,7 +89,7 @@ footer
             <span style="--i:15">.</span>
             <span style="--i:16">.</span>
             <span style="--i:17">.</span> 
-        </h3> </p>
+        </span></span>
 	<a href="#support">Support</a>
             <a href="#contact">Contact</a>
             <a href="#about">About</a>
